@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JavaScript Lab</title>
-  </head>
+    <title>Fetch POST Project</title>
+</head>
+<body>
+    <h1>Dog Information Form</h1>
+    <form id="dog-form">
+        <label for="dogName">Dog Name:</label>
+        <input type="text" id="dogName" name="dogName" required>
+        <br>
+        <label for="dogBreed">Dog Breed:</label>
+        <input type="text" id="dogBreed" name="dogBreed" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <div id="response"></div>
 
-  <body>
     <script src="index.js"></script>
-  </body>
-
+</body>
 </html>
